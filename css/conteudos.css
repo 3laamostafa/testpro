@@ -1,0 +1,124 @@
+body {
+  background-color: #F5F7FA;
+  color: #1F2937;
+  font-family: Arial, sans-serif;
+}
+
+.navbar-brand {
+  font-size: 1.4rem;
+}
+
+.navbar .nav-link {
+  color: #333;
+  font-weight: 500;
+  transition: 0.3s ease;
+}
+
+.navbar .nav-link:hover {
+  color: #2E8B57;
+}
+
+.navbar .nav-link.active {
+  color: #2E8B57 !important;
+}
+
+.navbar .btn-success {
+  background-color: #2E8B57;
+  border-color: #2E8B57;
+  transition: 0.3s ease;
+}
+
+.navbar .btn-success:hover {
+  background-color: #256f46;
+  border-color: #256f46;
+}
+
+.page-header {
+  background: linear-gradient(135deg, #dff3e5 0%, #f5fbf7 100%);
+}
+
+.hero-lembretes {
+  background: linear-gradient(135deg, #e8f8ee 0%, #f8fffb 100%);
+}
+  
+.hero-lembretes .badge {
+  background-color: #d4edda;
+  color: #2E8B57;
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+  
+.hero-lembretes .info-card li {
+  font-size: 0.95rem;
+}
+
+.subtitulo {
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+.conteudos {
+  padding: 40px 0;
+  text-align: center;
+}
+
+.conteudos h2 {
+  color: #1F2937;
+  font-size: 34px;
+  margin-bottom: 40px;
+}
+
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+}
+
+.card {
+  width: 320px;
+  padding: 20px;
+  border-radius: 15px;
+  color: white;
+  font-size: 18px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.25);
+  transition: transform 0.3s;
+  text-align: left;
+  border: none !important;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card:nth-child(1) { background-color: #ff7675; }
+.card:nth-child(2) { background-color: #74b9ff; }
+.card:nth-child(3) { background-color: #a29bfe; }
+.card:nth-child(4) { background-color: #fdcb6e; color: black; }
+.card:nth-child(5) { background-color: #55efc4; color: black; }
+.card:nth-child(6) { background-color: #e17055; }
+.card:nth-child(7) { background-color: #00cec9; }
+.card:nth-child(8) { background-color: #6c5ce7; }
+
+.card h3 {
+  margin-top: 0;
+  font-size: 24px;
+}
+
+footer {
+  background-color: #1F2937;
+  color: #F5F7FA;
+  padding: 20px 0;
+}
+
+footer a {
+  transition: 0.3s ease;
+}
+
+footer a:hover {
+  color: #7CFC98 !important;
+}
+
+footer ul li {
+  margin-bottom: 0.4rem;
+}

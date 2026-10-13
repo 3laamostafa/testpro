@@ -1,0 +1,109 @@
+body {
+  background-color: #F5F7FA;
+  color: #1F2937;
+  font-family: Arial, sans-serif;
+}
+
+.navbar-brand {
+  font-size: 1.4rem;
+}
+
+.navbar .nav-link {
+  color: #333;
+  font-weight: 500;
+  transition: 0.3s ease;
+}
+
+.navbar .nav-link:hover {
+  color: #2E8B57;
+}
+
+.navbar .nav-link.active {
+  color: #2E8B57 !important;
+}
+
+.navbar .btn-success {
+  background-color: #2E8B57;
+  border-color: #2E8B57;
+  transition: 0.3s ease;
+}
+
+.navbar .btn-success:hover {
+  background-color: #256f46;
+  border-color: #256f46;
+}
+
+.hero-checklist {
+  background: linear-gradient(135deg, #e8f8ee 0%, #f8fffb 100%);
+}
+
+.hero-checklist .badge {
+  background-color: rgba(46, 139, 87, 0.12);
+  color: #2E8B57;
+  font-weight: 600;
+}
+
+.info-card,
+.habit-card,
+.tip-card,
+.progress-section {
+  border: 1px solid #e9f3ec;
+}
+
+.form-check-input:checked {
+  background-color: #2E8B57;
+  border-color: #2E8B57;
+}
+
+.form-check-label {
+  cursor: pointer;
+}
+
+.progress {
+  height: 28px;
+  max-width: 650px;
+  border-radius: 999px;
+  background-color: #dff3e5;
+}
+
+.progress-bar {
+  background-color: #2E8B57;
+  font-weight: 600;
+}
+
+.tip-card,
+.habit-card,
+.info-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.tip-card:hover,
+.habit-card:hover,
+.info-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.08) !important;
+}
+
+@media (max-width: 768px) {
+  .hero-checklist h1 {
+    font-size: 2rem;
+  }
+}
+
+footer {
+  background-color: #1F2937;
+  color: #F5F7FA;
+  padding: 20px 0;
+}
+
+footer a {
+  transition: 0.3s ease;
+}
+
+footer a:hover {
+  color: #7CFC98 !important;
+}
+
+footer ul li {
+  margin-bottom: 0.4rem;
+}
